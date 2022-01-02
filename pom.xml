@@ -31,16 +31,10 @@
         <configuration>
           <source>${jdk.version}</source>
           <target>${jdk.version}</target>
+          <fork>true</fork>
+           <executable>/bin/java</executable>
         </configuration>
       </plugin>
-              <plugin>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.1</version>
-            <configuration>
-                <fork>true</fork>
-                <executable>/bin/java</executable>
-            </configuration>
-        </plugin>
-    </plugins>
+     </plugins>
   </build>
 </project>
