@@ -35,7 +35,7 @@
       </plugin>
               <plugin>
             <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.6.3</version>
+            <version>3.6</version>
             <configuration>
                 <fork>true</fork>
                 <executable>/bin/java</executable>
